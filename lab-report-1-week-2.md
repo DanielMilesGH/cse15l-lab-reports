@@ -27,7 +27,7 @@ Some of the most useful commands are:
 # Moving Files with `SCP`
 Moving a file with `SCP` is very simple. 
 Type in `scp \_local file\_ \_remote location to send\_`, input the password to the remote location, and then the file should be in the remote location, as seen in the image below:
-![Image](SCP.png)
+![image](https://user-images.githubusercontent.com/13767574/162668139-db07cc45-3902-4ca3-b750-f79e0a552d0f.png)
 Doing this several times could take a while, so there is a faster way of doing this. 
 
 # SSH Keys
