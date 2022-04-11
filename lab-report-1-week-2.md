@@ -23,6 +23,8 @@ Some of the most useful commands are:
 * rm \_file to remove\_ (removes specifid file)
     * if you want to remove an empty directory, include -r
     * if you want to remove a nonempty directory, include -rf
+Pictured below is ls -alF:
+![image](https://user-images.githubusercontent.com/13767574/162668337-6e629071-4ab6-4c93-a5db-83382ea546f7.png)
 
 # Moving Files with `SCP`
 Moving a file with `SCP` is very simple. 
