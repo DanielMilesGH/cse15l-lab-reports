@@ -25,3 +25,29 @@ Some of the most useful commands are:
     * if you want to remove a nonempty directory, include -rf
 
 # Moving Files with `SCP`
+Moving a file with `SCP` is very simple. 
+Type in `scp \_local file\_ \_remote location to send\_`, input the password to the remote location, and then the file should be in the remote location, as seen in the image below:
+![Image](SCP.png)
+Doing this several times could take a while, so there is a faster way of doing this. 
+
+# SSH Keys
+Using an SSH key greatly improves the speed of which you can transfer files and log in, and while it can be complicated to set up, it is worth it in the long run. 
+Make sure you have ssh client installed on your local machine, and then input these commands:
+```
+# on client
+ssh-keygen
+# enter file to save the key (should be default)
+/Users/<user-name>/.ssh/id_rsa
+# enter passphrase (not required)
+# if using windows, open powershell and run these commands:
+Get-Service ssh-agent | Set-Service -StartupType Manual
+Start-Service ssh-agent
+Get-Service ssh-agent
+ssh-add ~\.ssh\id_ed25519
+# now for final step, copy the public key onto the server using:
+# on server
+ssh cs15lsp22aox@ieng6.ucsd.edu
+mkdir .ssh
+# on client
+scp _.ssh location_/id_rsa.pub cs15lsp22aox@ieng6.ucsd.edu:~/.ssh/authorized_keys
+# this now lets you scp or ssh onto the server from client without needing a password.
