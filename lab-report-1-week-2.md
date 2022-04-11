@@ -51,3 +51,12 @@ mkdir .ssh
 # on client
 scp _.ssh location_/id_rsa.pub cs15lsp22aox@ieng6.ucsd.edu:~/.ssh/authorized_keys
 # this now lets you scp or ssh onto the server from client without needing a password.
+```
+You should now see how much faster it is to ssh and scp into the server. For our last step, we will make the most pleasant process for remote running
+
+# Making Remote Running Even More Pleasant
+There are many methods for optimizing this but the simplest would be to do the painful proccess once, and then use up arrows to save keystrokes.
+To make the first time simple, you can use semicolons and quotes to make one line do much more in the terminal. 
+For example, you could do this:
+`scp WhereAmI.java cs15lsp22aox@ieng6.ucsd.edu; ssh cs15lsp22aox@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"`
+This is painful to write out the first time, but subsequent edits can be done in however long it takes you to press up arrow and enter.
