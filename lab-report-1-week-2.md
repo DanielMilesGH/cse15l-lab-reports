@@ -16,12 +16,12 @@ The password input is tedious but there is a shortcut we will go over later.
 # Trying Some Commands
 Some of the most useful commands are:
 ```
-* cat \_file\_ (prints content of a file)
-* cd \_directory\_ (allows you to change directory)
-* ls \_optional directory\_ (allows you to list content of current dir or specified)
+* cat _file_ (prints content of a file)
+* cd _directory_ (allows you to change directory)
+* ls _optional directory_ (allows you to list content of current dir or specified)
     * Useful command is ls -alF, it displays **a**ll files, prints them in **l**ong form, and **F**ormats them.
-* cp \_source\_ \_destination\_ (copies a file to specified destination. Using -r you can copy entire directories.)
-* rm \_file to remove\_ (removes specifid file)
+* cp _source_ _destination_ (copies a file to specified destination. Using -r you can copy entire directories.)
+* rm _file to remove_ (removes specifid file)
     * if you want to remove an empty directory, include -r
     * if you want to remove a nonempty directory, include -rf
 ```
