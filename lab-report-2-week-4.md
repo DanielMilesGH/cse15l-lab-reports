@@ -20,7 +20,7 @@ This failure happens due to no check being done to see if the ] actually touches
 # Code Diff #3
 ![image](https://user-images.githubusercontent.com/13767574/166408194-1b88ee46-4717-4f9b-8488-9761507a49f2.png)
 
-A new test file I made with the content "\\[link1](website.com)", which in markdown does not create a link because of the '\\' character, but with MarkdownParse.java, it incorrectly states it is a link.
+A new test file I made with the content `\[link1](website.com)`, which in markdown does not create a link because of the '\\' character, but with MarkdownParse.java, it incorrectly states it is a link.
 
 Symptom:
 Incorrectly outputting `[website.com]`.
