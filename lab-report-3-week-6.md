@@ -4,7 +4,6 @@ Edited using Sublime Text.
 
 Logging in with alias: ![image](https://user-images.githubusercontent.com/13767574/169226003-30f3daf9-c9f4-4a40-934d-e36af442b99d.png)
 
-![image](https://user-images.githubusercontent.com/13767574/169226438-96431a67-bb75-42c1-acf6-db5ffe191fdf.png)
 Copying file:
 ![image](https://user-images.githubusercontent.com/13767574/169228054-fb3857c9-874e-4f37-ad00-2f5a0001a3fb.png)
 Above terminal is local copying hello.txt, bottom terminal is showing hello.txt was successfully copied.
