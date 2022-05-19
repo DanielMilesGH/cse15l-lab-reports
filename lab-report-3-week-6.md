@@ -10,3 +10,11 @@ Above terminal is local copying hello.txt, bottom terminal is showing hello.txt 
 
 Because I set the long string cs15lsp22aox@ieng6.ucsd.edu as the alias "ieng6", whenever I type ieng6, it is interpreted as cs15lsp22aox@ieng6.ucsd.edu, making it much easier to type commands.
 
+
+SCP entire directory:
+![image](https://user-images.githubusercontent.com/13767574/169230630-4c5b9556-aedb-47c1-bc4f-d606bbb3be12.png)
+
+Compiling + Running:
+![image](https://user-images.githubusercontent.com/13767574/169231654-673e909a-dd6a-4203-b177-bfe2b270eb48.png)
+Combining SCP+ssh+run tests:
+
